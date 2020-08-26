@@ -1,0 +1,12 @@
+.new-reservation-form{
+    background-color: white;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    width: 600px;
+    margin: auto;
+    padding: 0 40px;
+    padding-bottom: 25px;
+}
+
+.input-row-container{
+    margin: 10px 0;
+}

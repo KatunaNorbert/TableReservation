@@ -3,3 +3,31 @@
   width: 100%;
   background-color: rgb(245,245,245);
 }
+
+.green-button{
+  background-color: #3FC700 !important;
+  color: white !important;
+  font-size: 12px !important;
+}
+
+.red-button{
+  background-color: #FF3838 !important;
+  color: white !important;
+  font-size: 12px !important;
+}
+
+.blue-button{
+  background-color: #0098C7 !important;
+  color: white !important;
+  font-size: 12px !important;
+}
+
+.icon-with-action{
+  height: 18px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.app-container{
+  height: 100%;
+}

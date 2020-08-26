@@ -23,3 +23,39 @@ export function newReservation(reservation) {
     reservation,
   };
 }
+
+export const deleteReservationType = "DELETE_RESERVATION";
+
+export function deleteReservation(reservation) {
+  return {
+    type: deleteReservationType,
+    reservation,
+  };
+}
+
+export const updateReservationType = "UPDATE_RESERVATION";
+
+export function updateReservation(reservation) {
+  return {
+    type: updateReservationType,
+    reservation,
+  };
+}
+
+export const setSelectedReservationType = "SET_SELECTED_RESERVATION";
+
+export function setSelectedReservation(reservation) {
+  return {
+    type: setSelectedReservationType,
+    reservation,
+  };
+}
+
+export const removeSelectedReservationType = "REMOVE_SELECTED_RESERVATION";
+
+export function removeSelectedReservation(reservation) {
+  return {
+    type: removeSelectedReservationType,
+    reservation,
+  };
+}

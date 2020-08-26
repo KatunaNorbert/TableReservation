@@ -5,7 +5,6 @@ import React from "react";
 const useStyles = makeStyles(() =>
   createStyles({
     button: {
-      background: 'yellow'
     },
   })
 );
@@ -13,7 +12,7 @@ const useStyles = makeStyles(() =>
 const SubmitButton = (props) => {
   const classes = useStyles();
   return (
-    <Button type="submit" disabled={props.disabled} className={classes.button}>Submit</Button>
+    <Button type="submit" className="green-button" disabled={props.disabled}>Create</Button>
   );
 };
 

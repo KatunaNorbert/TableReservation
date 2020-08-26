@@ -1,0 +1,13 @@
+.created-reservation-component .success-image{
+    margin: 20px 0;
+    height: 40px;
+}
+
+.created-reservation-component .success-image img{
+    height: 100%;
+    object-fit: contain;
+}
+
+.created-reservation-component .card-content{
+    padding: 40px 0;
+}

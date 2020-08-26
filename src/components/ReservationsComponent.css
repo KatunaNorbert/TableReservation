@@ -1,7 +1,9 @@
-.reservation {
+.reservations-container {
   padding: 10px;
-}
-
-.reservationContainer {
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  height: calc(100vh - 120px);
+  overflow: scroll;
 }
